@@ -17,6 +17,7 @@ kvb-api
     git clone https://github.com/KoelnAPI/kvb-api.git .
     python3 -m venv env
 	source env/bin/activate
+    pip install beautifulsoup4 requests flask
     pip install wheel
     pip install parse
     pip install werkzeug==0.16.0

@@ -1,0 +1,13 @@
+[Unit]
+Description=KVB API Server
+After=multi-user.target
+
+[Service]
+User=pi
+Type=idle
+WorkingDirectory=/home/pi/kvbapi
+ExecStart=/home/pi/kvbapi/env/bin/python server.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

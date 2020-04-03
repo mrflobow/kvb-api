@@ -228,4 +228,4 @@ if __name__ == "__main__":
     for sid in stations.keys():
         stations_reverse[stations[sid]] = sid
     app.config["DEBUG"] = True
-    app.run()
+    app.run(host='0.0.0.0',port='6000')

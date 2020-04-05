@@ -14,7 +14,7 @@ kvb-api
     sudo apt install python3-pip 
     mkdir ~/kvbapi
     cd ~/kvbapi
-    git clone https://github.com/KoelnAPI/kvb-api.git .
+    git clone https://github.com/mrflobow/kvb-api.git .
     python3 -m venv env
 	source env/bin/activate
     pip install beautifulsoup4 requests flask
